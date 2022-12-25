@@ -70,7 +70,7 @@ def error(update: Update, context):
 
 
 def main():
-    updater = Updater(token='5832291397:AAFFU6vZS8ojjDoiFsTAxZQoejafHjdo7I8', use_context=True)
+    updater = Updater(token='id-telegrambot', use_context=True)
     dispatcher = updater.dispatcher
 
     dispatcher.add_handler(CommandHandler('start', start))
